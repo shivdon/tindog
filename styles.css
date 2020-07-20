@@ -1,0 +1,194 @@
+body
+{
+  font-family: "Montserrat-thick";
+  font-size: 1.2rem;
+}
+
+h3
+{
+  font-weight: bold;
+  font-size: 2rem;
+  padding:  0 5% 0;
+}
+
+h2
+{
+  font-family: "Montserrat-thick";
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 5rem;
+}
+
+p
+{
+
+  color: #8f8f8f;
+  font-weight: lighter;
+}
+.title
+
+{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.head
+{
+  font-family: 'Modak', cursive;
+  font-size: 3.6rem;
+  line-height: 1.5;
+  font-weight: 500;
+
+}
+
+.container-fluid
+{
+  padding: 3% 15% 7%;
+}
+
+.navbar
+{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand
+{
+  font-family: "Ubuntu-thick";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item
+{
+  padding: 0 18px;
+}
+
+.nav-link
+{
+  font-size: 1.5rem;
+  font-weight: lighter ;
+}
+
+.download-button
+{
+  margin: 5% 3% 5% 0;
+}
+
+.title-image
+{
+  width:60%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 30%;
+}
+
+#features
+{
+  background-color: white;
+  position: relative;
+  z-index: 1;
+
+}
+.feature-box
+{
+  text-align: center;
+  padding: 0 5%;
+
+}
+.image
+{
+ text-align: center;
+ margin-top: 40%;
+ margin-bottom: 1rem;
+ color: #ef8172;
+}
+
+.image:hover
+{
+  color:red;
+}
+
+#testimonials
+{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+
+}
+
+.carousel-item
+{
+  padding: 7% 15%;
+}
+
+.testimonial-img
+{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press
+{
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.press-img
+{
+  width:15%;
+  margin: 20px 20px 60px 20px;
+}
+
+#pricing
+{
+  padding: 120px;
+  text-align:center;
+}
+
+.price-col
+{
+  padding: 3% 2.5%;
+}
+
+@media (max-width: 1028px)
+{
+  .title-image
+  {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .title
+  {
+    text-align: center;
+  }
+}
+
+/* footer */
+#cta
+{
+  background-color:  #ff4c68;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.final-text
+{
+  font-family: "Montserrat-thick";
+  color:white;
+  font-size: 3rem;
+  font-weight: 500px;
+  padding: 0 3%;
+  margin-top: 3%;
+}
+
+#footer
+{
+  text-align: center;
+}
+
+.social
+{
+  padding :0 2%
+}
